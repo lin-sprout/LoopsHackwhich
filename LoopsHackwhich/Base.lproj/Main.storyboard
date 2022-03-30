@@ -44,12 +44,18 @@
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gv4-RZ-5u0">
                                         <rect key="frame" x="0.0" y="389" width="418" height="31"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="Array 2"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="For Loop"/>
+                                        <connections>
+                                            <action selector="forLoop:" destination="BYZ-38-t0r" eventType="touchUpInside" id="D2R-Ok-3d7"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nu9-qc-1bW">
                                         <rect key="frame" x="0.0" y="430" width="418" height="31"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="Array 3"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="For Count"/>
+                                        <connections>
+                                            <action selector="forCount:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XDg-A5-s46"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hf3-x4-Ecc">
                                         <rect key="frame" x="0.0" y="471" width="418" height="31"/>
@@ -60,6 +66,9 @@
                                         <rect key="frame" x="0.0" y="512" width="418" height="31"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="Dictionary"/>
+                                        <connections>
+                                            <action selector="dictionaryLoop:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xCB-VM-xvG"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OkZ-wW-6Xq">
                                         <rect key="frame" x="0.0" y="553" width="418" height="31"/>
