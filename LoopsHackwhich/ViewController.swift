@@ -27,6 +27,9 @@ class ViewController: UIViewController
     
         var fruit = [ "apple", "pear", "peach", "strawberry"]
         
+        textView.text = ""
+        output = ""
+        
         for item in fruit
                 
         {
@@ -88,6 +91,47 @@ class ViewController: UIViewController
         textView.text = output
     }
     
+    
+    @IBAction func doWhile(_ sender: Any)
+    {
+        var snacks = ["chips", "trail mix", "apple sauce", "popcorn"]
+        
+        var x = 0
+        
+        repeat
+        {
+            
+            output += "\(snacks[x])\n"
+            x += 1
+            
+        } while x < snacks.count
+    textView.text = output
+                        
+    }
+    
+    
+    @IBAction func whileLoop(_ sender: Any)
+    {
+    var candy = ["snickers", "heath", "Wafer", "smarties"]
+        var x = 0
+        
+        while x < candy.count
+        {
+            output += "\(candy[x])\n"
+            x += 1
+        }
+        textView.text = output
+    }
+    
+        
+    @IBAction func joinedLoop(_ sender: Any)
+    {
+    var pizza = ["pepperoni", "cheese", "hawaiian", "sausage"]
+        
+        output = pizza.joined(separator: "\n")
+        
+        textView.text = output
+    }
     
 }
 

@@ -60,7 +60,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hf3-x4-Ecc">
                                         <rect key="frame" x="0.0" y="471" width="418" height="31"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="Array 4"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="This one didn't get used lol"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dbG-2L-K9n">
                                         <rect key="frame" x="0.0" y="512" width="418" height="31"/>
@@ -73,17 +73,26 @@
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OkZ-wW-6Xq">
                                         <rect key="frame" x="0.0" y="553" width="418" height="31"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Do While"/>
+                                        <connections>
+                                            <action selector="doWhile:" destination="BYZ-38-t0r" eventType="touchUpInside" id="j8A-IG-oq2"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E2b-K1-LPB">
                                         <rect key="frame" x="0.0" y="594" width="418" height="31"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="While Loop"/>
+                                        <connections>
+                                            <action selector="whileLoop:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YaI-iN-KO5"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bg7-TG-M1q">
                                         <rect key="frame" x="0.0" y="635" width="418" height="31"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="Button"/>
+                                        <connections>
+                                            <action selector="joinedLoop:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vX7-Sg-7Kx"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
